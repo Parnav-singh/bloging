@@ -1,0 +1,131 @@
+
+
+###
+POST https://blog-production-14ae.up.railway.app/u/re/
+Content-Type: application/json
+
+{
+  "username": "qs",
+  "email": "s@g.com",
+  "password": "Strongp123"
+}
+
+###
+POST https://blog-production-14ae.up.railway.app/u/to/
+Content-Type: application/json
+
+{
+   "email": "s@g.com",
+  "password": "Strongp123"
+}
+
+###
+# GET http://127.0.0.1:8000/verifyurl/Mw/d14qnj-abeb34d9e4113fff3c8344d83a564230/
+
+###
+GET https://blog-production-14ae.up.railway.app/u/pro/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzY3OTc5NDI3LCJpYXQiOjE3Njc1NDc0MjcsImp0aSI6ImJiOGUwZTc4N2NlYTQ0NDBiNGU2NmIxNWIzN2UwNTQzIiwidXNlcl9pZCI6IjQifQ.0vhS3Q4PTqOi4p9tKWxNLSVoWs8hhGJ2VMnyYdLuuP4
+###
+PATCH  http://127.0.0.1:8000/u/pro/
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzY3Nzk4MzU1LCJpYXQiOjE3NjczNjYzNTUsImp0aSI6IjQ3ODZkN2Y0M2JlYzRjZTE4NDE4NWZkY2NhODI5YzllIiwidXNlcl9pZCI6IjQifQ.JKPZzt9WcW-HXVURofSVFK408vG3z1bJIJmqMZif3fk
+
+
+{
+  "display_name": "Pranav Singh",
+  "bio": "Full-stack developer and technical blogger. I write about Django, REST APIs, and system design.",
+  "profile_image": "https://example.com/media/profiles/pranav.jpg",
+  "website": "https://pranavdev.blog",
+  "location": "India",
+  "twitter": "https://twitter.com/pranavdev",
+  "linkedin": "https://linkedin.com/in/pranavsingh",
+  "github": "https://github.com/pranav307"
+  
+ 
+}
+
+
+###
+# POST https://blog-production-14ae.up.railway.app/u/plist/
+POST http://127.0.0.1:8000/u/plist/
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzY3Nzk4MzU1LCJpYXQiOjE3NjczNjYzNTUsImp0aSI6IjQ3ODZkN2Y0M2JlYzRjZTE4NDE4NWZkY2NhODI5YzllIiwidXNlcl9pZCI6IjQifQ.JKPZzt9WcW-HXVURofSVFK408vG3z1bJIJmqMZif3fk
+
+{
+  
+  "image1": "https://example.com/images/post1_main.jpg",
+  "image2": "https://example.com/images/post1_secondary.jpg",
+  "video": "https://example.com/videos/post1.mp4",
+  "title": "jklm ",
+  
+  "description": "This post explains how to implement a like and unlike toggle system using Django REST Framework and ViewSets.",
+  "link1": "https://docs.djangoproject.com/en/5.0/",
+  "link2": "https://www.django-rest-framework.org/"
+}
+
+
+###
+GET https://blog-production-14ae.up.railway.app/u/ard/4/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzY3OTY3NTc2LCJpYXQiOjE3Njc1MzU1NzYsImp0aSI6ImMxNWUyYzhmYTZlYTRhN2I5ODUyNjYzODRjNDA5MmFjIiwidXNlcl9pZCI6IjQifQ.qGt3HYQ01QUghlzr0XGoQzAnV_e1BQmlgq0GgIvotjk
+
+
+###
+POST http://127.0.0.1:8000/u/1/li/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzY2ODIxODQ0LCJpYXQiOjE3NjYzODk4NDQsImp0aSI6IjQxYWRjY2U0MGZhNTQ1ODFhOWU0MmY4NWIwMjNmOWZkIiwidXNlcl9pZCI6IjQifQ.MBLTbUq1Y8BMpfgq-TlMVJYyrP3MsJ8YpcMvgVqnQxY
+
+###
+POST http://127.0.0.1:8000/u/cm/ccom/
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzY2ODI2MDMwLCJpYXQiOjE3NjYzOTQwMzAsImp0aSI6IjVmNmI5NGQ4YWU3ZjRhOGRiN2QwZTljNzczNzI5MWM4IiwidXNlcl9pZCI6IjQifQ.h1tLiyiJeg-C6J4d2rPdUfUC5hUGF4vJmZmxdnu1uKQ 
+
+{ 
+
+  "parent":6,
+  "post_id":2,
+  "content":"fiurhfuhwmmmfuwrkkkffrkkhw"
+}
+###
+
+GET http://127.0.0.1:8000/u/cm/?post_id=2
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzY2ODI2MDMwLCJpYXQiOjE3NjYzOTQwMzAsImp0aSI6IjVmNmI5NGQ4YWU3ZjRhOGRiN2QwZTljNzczNzI5MWM4IiwidXNlcl9pZCI6IjQifQ.h1tLiyiJeg-C6J4d2rPdUfUC5hUGF4vJmZmxdnu1uKQ 
+
+###
+GET http://127.0.0.1:8000/u/pl/
+
+###
+GET http://127.0.0.1:8000/u/t/
+
+###
+GET https://blog-production-14ae.up.railway.app/u/pl/
+
+###
+
+GET https://blog-production-14ae.up.railway.app/u/cm/?page=2&post_id=1
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzY3Njk0Mzc5LCJpYXQiOjE3NjcyNjIzNzksImp0aSI6ImQ1NjQzMjc5MDFjMTQxNjJhMzg5NmVkOTJjNjY5MDM0IiwidXNlcl9pZCI6IjIifQ.oJDuVS6nWl1anTmMSIUBw4Gsqb2bSCVqhChMMheJbu0
+
+
+###
+POST https://blog-production-14ae.up.railway.app/u/cm/ccom/?post_id=1
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzY3Njk0Mzc5LCJpYXQiOjE3NjcyNjIzNzksImp0aSI6ImQ1NjQzMjc5MDFjMTQxNjJhMzg5NmVkOTJjNjY5MDM0IiwidXNlcl9pZCI6IjIifQ.oJDuVS6nWl1anTmMSIUBw4Gsqb2bSCVqhChMMheJbu0
+Content-Type: application/json
+
+{
+  "content":"xxxx",
+   "parent" :3
+}
+
+###
+DELETE https://blog-production-14ae.up.railway.app/u/c/delete/?post_id=3
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzY3Njk0Mzc5LCJpYXQiOjE3NjcyNjIzNzksImp0aSI6ImQ1NjQzMjc5MDFjMTQxNjJhMzg5NmVkOTJjNjY5MDM0IiwidXNlcl9pZCI6IjIifQ.oJDuVS6nWl1anTmMSIUBw4Gsqb2bSCVqhChMMheJbu0
+
+###
+GET https://blog-production-14ae.up.railway.app/u/like/glike/?post=2
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzY3Njk0Mzc5LCJpYXQiOjE3NjcyNjIzNzksImp0aSI6ImQ1NjQzMjc5MDFjMTQxNjJhMzg5NmVkOTJjNjY5MDM0IiwidXNlcl9pZCI6IjIifQ.oJDuVS6nWl1anTmMSIUBw4Gsqb2bSCVqhChMMheJbu0
+
+###
+
+POST https://blog-production-14ae.up.railway.app/u/like/?post=3
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzY3Njk0Mzc5LCJpYXQiOjE3NjcyNjIzNzksImp0aSI6ImQ1NjQzMjc5MDFjMTQxNjJhMzg5NmVkOTJjNjY5MDM0IiwidXNlcl9pZCI6IjIifQ.oJDuVS6nWl1anTmMSIUBw4Gsqb2bSCVqhChMMheJbu0
+
+###
+GET https://blog-production-14ae.up.railway.app/u/pl/?search=f
